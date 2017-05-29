@@ -26,6 +26,7 @@ body{
     margin: 0px;
 }
 header{
+    z-index: 100000;
     position: fixed;
     width: 100%;
     height: 61px;
@@ -102,7 +103,37 @@ header{
     color: #fcae11;
 }
 #welcome{
+    text-align: center;
     position: relative;
-    top: 200px;
+    top: 150px;
     margin: 0px auto;
+}
+#welcome_text{
+    text-shadow: black 0 0 2px;
+    color: white;
+    font-size: 45px;
+    font-family: Oswald;
+}
+#orange{
+    color: orange;
+}
+.quad{
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 200px;
+}
+.q1{
+    margin-left: 50px;
+}
+.q2{
+    margin-left: 350px;
+}
+.q3{
+    margin-left: 650px;
+}
+.q4{
+    margin-left: 950px;
 }
