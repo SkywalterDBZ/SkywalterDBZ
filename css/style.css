@@ -117,13 +117,17 @@ header{
 #orange{
     color: orange;
 }
-.quad{
+.square{
+    padding-top: 20px;
+    color: white;
     margin-top: 100px;
     position: absolute;
-    margin-left: 0px;
     background-color: rgba(0, 0, 0, 0.3);
     width: 200px;
     height: 200px;
+}
+.square i{
+    font-size: 100px;
 }
 .q1{
     margin-left: 50px;
@@ -136,4 +140,12 @@ header{
 }
 .q4{
     margin-left: 950px;
+}
+.number_q{
+    font-size: 40px;
+    font-family: oswald;
+}
+.text_q{
+    font-family: arial;
+    font-size: 20px;
 }
